@@ -1,14 +1,10 @@
-import logo from "./logo.svg";
+import Input from "./components/input";
 
 function App() {
-  console.log(process.env.REACT_APP_COLOR);
   return (
-    <div
-      className="App"
-      style={{ backgroundColor: process.env.REACT_APP_COLOR }}
-    >
+    <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <Input />
       </header>
     </div>
   );
