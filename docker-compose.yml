@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+  front-app:
+    image: frontend_test
+    ports:
+      - "3000:3000"
+
+  API:
+    image: backend_test
+    ports:
+      - "5000:5000"
